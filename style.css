@@ -1,0 +1,49 @@
+
+    .ul{
+        margin: 0;    
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+         
+       }
+
+       .ul li{
+           float: left;
+       }
+
+       .ul li a{
+           font-size: 24px;
+           display: block;
+           color: lightgray;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+       }
+       .ul li a:hover{
+           color: white;
+       }
+       .ul li a:active{
+        background-color: red;
+    }
+       
+
+.nav{
+   overflow: hidden;
+   background-color: navy;
+   position: fixed;
+   left: 0;
+   top: 0;
+   height: 64px;
+   width:100%;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
